@@ -1,8 +1,7 @@
 .heading-section{
     background: linear-gradient(to right, rgb(2,228,171), rgb(74, 215, 240));
     padding:100px;
-
-
+    padding-bottom: 150px;
 }
 
 .title{
@@ -10,11 +9,18 @@
     place-items: center;
     font-weight: bold;
     color: white;
-    text-shadow: 1px 2px #000000;;
+    text-shadow: 1px 2px #000000;
 }
 
 .new-todo-input{
     width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(184, 181, 182);
+}
+
+.new-todo-input:focus{
+    outline: none;
 }
 
 .container{
@@ -32,17 +38,28 @@
 
 .control-button{
     float: right;
-    background-color: #FC6586;
-    border-radius: 2px;
+    background: linear-gradient(to right, rgb(236, 72, 140), rgb(240, 54, 82));
+    border-radius: 3px;
     margin-left: 2px;
     height: 30px;
     padding: 2px;
 }
 
 .control-button-text{
-    display: inline-flex;
+    display: flex;
     padding: 0px;
     color: #fff;
+    font-weight: 600;
+    width: 60px;
+    opacity: 0.9;
+    justify-content: space-evenly;
+
+    
+}
+
+.control-button-text:hover {
+    opacity: 1;
+    color: #000;
 }
 
 .add-icon{
@@ -54,6 +71,14 @@
     background: #fff;
     padding: 25px;
     border-radius: 4px;
-    margin-top: -65px;
+    margin-top: -55px;
     box-shadow: 1px 1px 1px 1px  rgb(185, 182, 182);
 }
+
+.new-todo-title{
+    font-size: 18px;
+}
+
+ ::placeholder{
+    font-style: italic;
+ }
