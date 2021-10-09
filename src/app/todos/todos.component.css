@@ -1,0 +1,59 @@
+.heading-section{
+    background: linear-gradient(to right, rgb(2,228,171), rgb(74, 215, 240));
+    padding:100px;
+
+
+}
+
+.title{
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 2px #000000;;
+}
+
+.new-todo-input{
+    width: 100%;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.field{
+    width: 100%;
+    display:flex
+}
+
+.control{
+    width: 100%;
+}
+
+.control-button{
+    float: right;
+    background-color: #FC6586;
+    border-radius: 2px;
+    margin-left: 2px;
+    height: 30px;
+    padding: 2px;
+}
+
+.control-button-text{
+    display: inline-flex;
+    padding: 0px;
+    color: #fff;
+}
+
+.add-icon{
+    align-self: center;
+}
+
+
+.add-todo-box{
+    background: #fff;
+    padding: 25px;
+    border-radius: 4px;
+    margin-top: -65px;
+    box-shadow: 1px 1px 1px 1px  rgb(185, 182, 182);
+}
